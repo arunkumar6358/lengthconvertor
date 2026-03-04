@@ -1,0 +1,44 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container{
+            width: 500px;
+            height: auto;
+            padding-top: 20px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        h2{
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        #inputValue{
+            margin-top: -30px;
+            padding: 5px;
+            border-radius: 2px;
+            width: 250px;
+        }
+        #calculate{
+            margin-top: -230px;
+            padding: 10px;
+            color: whitesmoke;
+            background-color: chocolate;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
